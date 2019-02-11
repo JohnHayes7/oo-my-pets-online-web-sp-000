@@ -73,9 +73,7 @@ class Owner
   end
   
   def list_pets
-    @pets.each do |species, pet|
-      
-    end
+    return "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
   end
   
 end
